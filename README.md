@@ -1,5 +1,4 @@
-# CSC3224_GameDev
- CSC3224: Computer Games Development
+#  CSC3224: Computer Games Development
 
 This is my game for my coursework for CSC3224: Computer Games Development.
 
