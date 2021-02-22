@@ -15,9 +15,9 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptHeight",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
-    "name": "Project",
-    "author": "",
+    "version": "0.0.1",
+    "name": "Gladiator",
+    "author": "Jack Bulson",
     "windowWidth": 480,
     "windowHeight": 270,
     "latestCompilationDirectory": "",
@@ -366,6 +366,60 @@
         "name": "Sprites\\Characters\\Player\\Player_Dash5.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Characters/Player/Player_Dash6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Characters\\Player\\Player_Dash6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Characters/Player/Player_Dash7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Characters\\Player\\Player_Dash7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/MainMenu/Button_Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\MainMenu\\Button_Play.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/MainMenu/Button_Help.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\MainMenu\\Button_Help.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/MainMenu/Button_Exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\MainMenu\\Button_Exit.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/MainMenu/Prompt_Help.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\MainMenu\\Prompt_Help.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -387,6 +441,597 @@
     }
   ],
   "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main_95Menu",
+      "name": "Main_Menu",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1.5
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "HelpShown",
+          "value": "0"
+        },
+        {
+          "name": "HelpShownChanged",
+          "value": "0"
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "Button_Play",
+          "persistentUuid": "046aedac-2570-4306-a082-20509aad6171",
+          "width": 180,
+          "x": 150,
+          "y": 88,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "Button_Help",
+          "persistentUuid": "630b654a-840a-4c9c-9521-ac7e5650c1cc",
+          "width": 180,
+          "x": 150,
+          "y": 149,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "Button_Exit",
+          "persistentUuid": "2d621b7d-b939-4f1a-91ed-dc5b050fd1e3",
+          "width": 180,
+          "x": 150,
+          "y": 209,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 270,
+          "layer": "",
+          "locked": false,
+          "name": "Prompt_Help",
+          "persistentUuid": "6d816c0e-fc95-4c83-b158-79a48653b30b",
+          "width": 480,
+          "x": 0,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Button_Play",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\MainMenu\\Button_Play.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Button_Help",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\MainMenu\\Button_Help.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Button_Exit",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\MainMenu\\Button_Exit.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prompt_Help",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\MainMenu\\Prompt_Help.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Prompt_Help",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Play Button",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Button_Play",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Starting_Arena\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Button_Help",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Prompt_Help",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Prompt_Help",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Button_Exit",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 7117144,
+          "ambientLightColorG": 7831264,
+          "ambientLightColorR": 7363976,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
     {
       "b": 218,
       "disableInputWhenNotFocused": true,
@@ -411,7 +1056,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 2.892
+        "zoomFactor": 2.844
       },
       "objectsGroups": [
         {
@@ -598,7 +1243,7 @@
           "locked": false,
           "name": "HitPointBox",
           "persistentUuid": "cafc1741-2baf-4a75-9155-64f3b962bff6",
-          "width": 6,
+          "width": 7,
           "x": 334,
           "y": 72,
           "zOrder": 17,
@@ -1484,7 +2129,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.05,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -1614,90 +2259,6 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Sprites\\Characters\\Player\\Player_Dash3.png",
-                      "points": [
-                        {
-                          "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 16,
-                        "y": 16
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 8
-                          },
-                          {
-                            "x": 10,
-                            "y": 24
-                          },
-                          {
-                            "x": 20,
-                            "y": 24
-                          },
-                          {
-                            "x": 20,
-                            "y": 8
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Sprites\\Characters\\Player\\Player_Dash3.png",
-                      "points": [
-                        {
-                          "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 16,
-                        "y": 16
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 8
-                          },
-                          {
-                            "x": 10,
-                            "y": 24
-                          },
-                          {
-                            "x": 20,
-                            "y": 24
-                          },
-                          {
-                            "x": 20,
-                            "y": 8
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
                       "image": "Sprites\\Characters\\Player\\Player_Dash4.png",
                       "points": [
                         {
@@ -1741,6 +2302,90 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Sprites\\Characters\\Player\\Player_Dash5.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 21,
+                          "y": 8
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Characters\\Player\\Player_Dash6.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 21,
+                          "y": 8
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Characters\\Player\\Player_Dash7.png",
                       "points": [
                         {
                           "name": "HitPoint",
@@ -2895,7 +3540,16 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -3296,6 +3950,51 @@
               "events": []
             },
             {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Up"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "70.71",
+                    "-70.71",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
@@ -3452,10 +4151,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "AnimationEnded"
+                "value": "Sprite"
               },
               "parameters": [
-                "Player"
+                "Player",
+                "=",
+                "5"
               ],
               "subInstructions": []
             },
