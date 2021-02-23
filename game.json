@@ -420,6 +420,15 @@
         "name": "Sprites\\MainMenu\\Prompt_Help.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Walls/WallBack-BrickSand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Walls\\WallBack-BrickSand.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -465,7 +474,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.5
+        "zoomFactor": 1.4
       },
       "objectsGroups": [],
       "variables": [
@@ -482,14 +491,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 60,
+          "height": 51,
           "layer": "",
           "locked": false,
           "name": "Button_Play",
           "persistentUuid": "046aedac-2570-4306-a082-20509aad6171",
-          "width": 180,
-          "x": 150,
-          "y": 88,
+          "width": 148,
+          "x": 160,
+          "y": 117,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -498,14 +507,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 60,
+          "height": 51,
           "layer": "",
           "locked": false,
           "name": "Button_Help",
           "persistentUuid": "630b654a-840a-4c9c-9521-ac7e5650c1cc",
-          "width": 180,
-          "x": 150,
-          "y": 149,
+          "width": 148,
+          "x": 160,
+          "y": 168,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -514,14 +523,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 60,
+          "height": 51,
           "layer": "",
           "locked": false,
           "name": "Button_Exit",
           "persistentUuid": "2d621b7d-b939-4f1a-91ed-dc5b050fd1e3",
-          "width": 180,
-          "x": 150,
-          "y": 209,
+          "width": 148,
+          "x": 160,
+          "y": 219,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1056,7 +1065,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 2.844
+        "zoomFactor": 2.964
       },
       "objectsGroups": [
         {
@@ -1067,12 +1076,6 @@
             },
             {
               "name": "WallTiled_Vertical"
-            },
-            {
-              "name": "WallTiled_Horizontal"
-            },
-            {
-              "name": "Enemy"
             }
           ]
         },
@@ -1125,7 +1128,7 @@
           "width": 0,
           "x": 220,
           "y": 195,
-          "zOrder": 10,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -1166,39 +1169,7 @@
           "width": 64,
           "x": 416,
           "y": 0,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 16,
-          "layer": "",
-          "locked": true,
-          "name": "WallTiled_Horizontal",
-          "persistentUuid": "ddeae2ed-001c-43dd-b0ca-2399852a2a8a",
-          "width": 480,
-          "x": 0,
-          "y": 32,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 16,
-          "layer": "",
-          "locked": true,
-          "name": "WallTiled_Horizontal",
-          "persistentUuid": "9b11b899-9064-4650-a419-b29a821c43a2",
-          "width": 480,
-          "x": 0,
-          "y": 254,
-          "zOrder": 1,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1333,22 +1304,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 16,
-          "layer": "",
-          "locked": true,
-          "name": "WallTiled_HorizontalTop",
-          "persistentUuid": "a3d9d666-02a2-44b6-a981-2797e3e83ace",
-          "width": 352,
-          "x": 64,
-          "y": 25,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -1450,11 +1405,43 @@
           "layer": "",
           "locked": false,
           "name": "Enemy",
-          "persistentUuid": "5c7eaa94-58a7-45cc-bb7a-4b366a4eb022",
+          "persistentUuid": "b091d754-af6e-47d9-81ab-9a199b91853c",
           "width": 0,
-          "x": 232,
-          "y": 6,
+          "x": 377,
+          "y": 8,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "WallTiled_HorizontalTop",
+          "persistentUuid": "71205498-4f8e-4bc1-8987-7eb756fc91a7",
+          "width": 480,
+          "x": 0,
+          "y": 257,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "Collision_Boundary",
+          "persistentUuid": "e50cf78a-5b8d-49ef-8196-985802512c68",
+          "width": 352,
+          "x": 64,
+          "y": 261,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1465,12 +1452,28 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "b091d754-af6e-47d9-81ab-9a199b91853c",
+          "name": "Wall_Back_BrickSand",
+          "persistentUuid": "7b3302fa-2487-4b12-ac83-348ae51b25fc",
           "width": 0,
-          "x": 377,
-          "y": 8,
-          "zOrder": 1,
+          "x": 64,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "Collision_Boundary",
+          "persistentUuid": "d58ded71-d9b3-4709-b921-ab74115a3f8a",
+          "width": 352,
+          "x": 64,
+          "y": 18,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1568,9 +1571,9 @@
           ],
           "behaviors": [
             {
-              "deceleration": 1000,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "deceleration": 1000,
               "acceleration": 1000,
               "maxSpeed": 100,
               "allowDiagonals": true,
@@ -2767,6 +2770,45 @@
           "width": 16,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "name": "Wall_Back_BrickSand",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Walls\\WallBack-BrickSand.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
