@@ -564,6 +564,60 @@
         "name": "Attack-8.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Characters/Enemies/Enemy_Run1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Characters\\Enemies\\Enemy_Run1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Characters/Enemies/Enemy_Run2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Characters\\Enemies\\Enemy_Run2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Characters/Enemies/Enemy_Run3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Characters\\Enemies\\Enemy_Run3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Characters/Enemies/Enemy_Run4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Characters\\Enemies\\Enemy_Run4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Characters/Enemies/Enemy_Run5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Characters\\Enemies\\Enemy_Run5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Characters/Enemies/Enemy_Run6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Characters\\Enemies\\Enemy_Run6.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1273,7 +1327,7 @@
           "width": 0,
           "x": 220,
           "y": 195,
-          "zOrder": 9,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -1586,31 +1640,6 @@
           "layer": "",
           "locked": false,
           "name": "Enemy",
-          "persistentUuid": "5a0f08a8-bb72-493d-97a6-3ee3eb18dfba",
-          "width": 0,
-          "x": 239,
-          "y": 137,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            },
-            {
-              "name": "AttackHit",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
           "persistentUuid": "c67f6d3d-3a82-4964-985b-69b600448550",
           "width": 0,
           "x": 155,
@@ -1626,30 +1655,13 @@
             {
               "name": "AttackHit",
               "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "24e6b643-3194-4565-b951-428516072040",
-          "width": 0,
-          "x": 147,
-          "y": 194,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
+            },
             {
-              "name": "Attack",
+              "name": "Running",
               "value": "0"
             },
             {
-              "name": "AttackHit",
+              "name": "Dead",
               "value": "0"
             }
           ]
@@ -1661,10 +1673,10 @@
           "layer": "",
           "locked": false,
           "name": "Enemy",
-          "persistentUuid": "5e42b118-8cf0-42f3-8b25-c9392bbb554c",
+          "persistentUuid": "10ab75db-799c-4265-a21e-774bfab5abc1",
           "width": 0,
-          "x": 374,
-          "y": 107,
+          "x": 219,
+          "y": 130,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1675,6 +1687,14 @@
             },
             {
               "name": "AttackHit",
+              "value": "0"
+            },
+            {
+              "name": "Running",
+              "value": "0"
+            },
+            {
+              "name": "Dead",
               "value": "0"
             }
           ]
@@ -1686,10 +1706,10 @@
           "layer": "",
           "locked": false,
           "name": "Enemy",
-          "persistentUuid": "cd5e7897-411d-4a01-a607-59b834c8d0f0",
+          "persistentUuid": "225edb2e-f429-4981-948d-fec21aa0b616",
           "width": 0,
-          "x": 338.859,
-          "y": 175.678,
+          "x": 304,
+          "y": 147,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1700,6 +1720,14 @@
             },
             {
               "name": "AttackHit",
+              "value": "0"
+            },
+            {
+              "name": "Running",
+              "value": "0"
+            },
+            {
+              "name": "Dead",
               "value": "0"
             }
           ]
@@ -1711,10 +1739,10 @@
           "layer": "",
           "locked": false,
           "name": "Enemy",
-          "persistentUuid": "a46747b5-2b34-4f07-992b-50578bd035af",
+          "persistentUuid": "a7d573a2-e429-4650-918a-214994fec681",
           "width": 0,
-          "x": 274,
-          "y": 90,
+          "x": 187,
+          "y": 167,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1725,6 +1753,14 @@
             },
             {
               "name": "AttackHit",
+              "value": "0"
+            },
+            {
+              "name": "Running",
+              "value": "0"
+            },
+            {
+              "name": "Dead",
               "value": "0"
             }
           ]
@@ -1736,10 +1772,10 @@
           "layer": "",
           "locked": false,
           "name": "Enemy",
-          "persistentUuid": "316ddad5-e755-4318-9081-6ac1a201793f",
+          "persistentUuid": "8c06bf63-06d7-4f85-b074-cde2a35b9cc0",
           "width": 0,
-          "x": 153,
-          "y": 84,
+          "x": 287,
+          "y": 200,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1750,6 +1786,14 @@
             },
             {
               "name": "AttackHit",
+              "value": "0"
+            },
+            {
+              "name": "Running",
+              "value": "0"
+            },
+            {
+              "name": "Dead",
               "value": "0"
             }
           ]
@@ -1761,10 +1805,10 @@
           "layer": "",
           "locked": false,
           "name": "Enemy",
-          "persistentUuid": "131c87fd-cf8b-491d-b10f-a862b8b7a660",
+          "persistentUuid": "8694edb7-cfad-4666-b594-d2541af0800d",
           "width": 0,
-          "x": 281,
-          "y": 187,
+          "x": 256,
+          "y": 170,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1775,6 +1819,146 @@
             },
             {
               "name": "AttackHit",
+              "value": "0"
+            },
+            {
+              "name": "Running",
+              "value": "0"
+            },
+            {
+              "name": "Dead",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "0794bfa7-c079-4bbd-bef8-8a46ed3e20eb",
+          "width": 0,
+          "x": 128,
+          "y": 195,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            },
+            {
+              "name": "Running",
+              "value": "0"
+            },
+            {
+              "name": "Dead",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "3c9f37c1-21f8-4dab-b6f5-1b663e6e160e",
+          "width": 0,
+          "x": 320,
+          "y": 180,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            },
+            {
+              "name": "Running",
+              "value": "0"
+            },
+            {
+              "name": "Dead",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "acff31fa-3f48-4093-a028-f2e5ad299d42",
+          "width": 0,
+          "x": 269,
+          "y": 91,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            },
+            {
+              "name": "Running",
+              "value": "0"
+            },
+            {
+              "name": "Dead",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "c2c0ec16-55f8-4b5a-82e6-2a2e881a7179",
+          "width": 0,
+          "x": 342,
+          "y": 168,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            },
+            {
+              "name": "Running",
+              "value": "0"
+            },
+            {
+              "name": "Dead",
               "value": "0"
             }
           ]
@@ -3246,7 +3430,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -3545,6 +3729,270 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Attack-8.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Characters\\Enemies\\Enemy_Run1.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Characters\\Enemies\\Enemy_Run2.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Characters\\Enemies\\Enemy_Run3.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Characters\\Enemies\\Enemy_Run4.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Characters\\Enemies\\Enemy_Run5.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Characters\\Enemies\\Enemy_Run6.png",
                       "points": [
                         {
                           "name": "HitPoint",
@@ -4647,6 +5095,19 @@
                 "Left"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Attack",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -4677,6 +5138,19 @@
               "parameters": [
                 "Collision",
                 "Right"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Attack",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -5098,6 +5572,19 @@
               "parameters": [
                 "EnemiesSlain",
                 "+",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Enemies",
+                "Dead",
+                "=",
                 "1"
               ],
               "subInstructions": []
@@ -5992,7 +6479,8 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemies",
           "conditions": [
             {
               "type": {
@@ -6010,33 +6498,90 @@
             {
               "type": {
                 "inverted": true,
-                "value": "Animation"
+                "value": "VarObjet"
               },
               "parameters": [
                 "Enemies",
+                "Dead",
                 "=",
                 "1"
               ],
               "subInstructions": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "AddForceVersPos"
-              },
-              "parameters": [
-                "Enemy",
-                "Player.X()",
-                "Player.Y()",
-                "10",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Running",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Running",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
-          ],
-          "events": []
+          ]
         },
         {
           "disabled": false,
@@ -6059,10 +6604,11 @@
             {
               "type": {
                 "inverted": true,
-                "value": "Animation"
+                "value": "VarObjet"
               },
               "parameters": [
                 "Enemies",
+                "Dead",
                 "=",
                 "1"
               ],
@@ -6073,17 +6619,47 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeAnimation"
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "Enemy",
+                "Player.X()",
+                "Player.Y()",
+                "10",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
               },
               "parameters": [
                 "Enemies",
+                "Running",
                 "=",
-                "0"
+                "1"
               ],
               "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemy Rotation",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -6119,10 +6695,11 @@
             {
               "type": {
                 "inverted": true,
-                "value": "Animation"
+                "value": "VarObjet"
               },
               "parameters": [
                 "Enemies",
+                "Dead",
                 "=",
                 "1"
               ],
@@ -6178,10 +6755,11 @@
             {
               "type": {
                 "inverted": true,
-                "value": "Animation"
+                "value": "VarObjet"
               },
               "parameters": [
                 "Enemies",
+                "Dead",
                 "=",
                 "1"
               ],
@@ -6245,17 +6823,18 @@
               "parameters": [
                 "Enemies",
                 "\"attackTimer\"",
-                "2"
+                "1"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": true,
-                "value": "Animation"
+                "value": "VarObjet"
               },
               "parameters": [
                 "Enemies",
+                "Attack",
                 "=",
                 "1"
               ],
@@ -6264,12 +6843,13 @@
             {
               "type": {
                 "inverted": true,
-                "value": "Animation"
+                "value": "VarObjet"
               },
               "parameters": [
                 "Enemies",
+                "Dead",
                 "=",
-                "2"
+                "1"
               ],
               "subInstructions": []
             }
@@ -6601,10 +7181,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Animation"
+                "value": "VarObjet"
               },
               "parameters": [
                 "Enemies",
+                "Dead",
                 "=",
                 "1"
               ],
@@ -6619,6 +7200,18 @@
               },
               "parameters": [
                 "Enemies"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Enemies",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -6686,6 +7279,111 @@
               "parameters": [
                 "Enemies",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemy Spawner",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"enemySpawn\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"enemySpawn\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Enemies",
+                "Random(SceneWindowWidth())",
+                "Random(SceneWindowHeight())",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Enemies",
+                "=",
+                "9"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"enemySpawn\""
               ],
               "subInstructions": []
             }
