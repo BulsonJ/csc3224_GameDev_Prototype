@@ -5852,8 +5852,8 @@
               },
               "parameters": [
                 "",
-                "HitPointBox_Enemy",
-                "Enemies"
+                "Enemies",
+                "HitPointBox_Enemy"
               ],
               "subInstructions": []
             },
@@ -6000,7 +6000,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "Attack",
                 "=",
                 "0"
@@ -6013,7 +6013,7 @@
                 "value": "Animation"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "=",
                 "1"
               ],
@@ -6049,7 +6049,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "Attack",
                 "=",
                 "0"
@@ -6062,7 +6062,7 @@
                 "value": "Animation"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "=",
                 "1"
               ],
@@ -6109,7 +6109,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "Attack",
                 "=",
                 "0"
@@ -6122,7 +6122,7 @@
                 "value": "Animation"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "=",
                 "1"
               ],
@@ -6168,7 +6168,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "Attack",
                 "=",
                 "0"
@@ -6181,7 +6181,7 @@
                 "value": "Animation"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "=",
                 "1"
               ],
@@ -6255,7 +6255,7 @@
                 "value": "Animation"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "=",
                 "1"
               ],
@@ -6267,7 +6267,7 @@
                 "value": "Animation"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "=",
                 "2"
               ],
@@ -6294,7 +6294,7 @@
                 "value": "ChangeAnimation"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "=",
                 "2"
               ],
@@ -6401,7 +6401,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "AttackHit",
                 "=",
                 "1"
@@ -6604,7 +6604,7 @@
                 "value": "Animation"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "=",
                 "1"
               ],
@@ -6618,7 +6618,74 @@
                 "value": "Arreter"
               },
               "parameters": [
-                "Enemy"
+                "Enemies"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemies",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Enemies",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Enemies"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "HitPointBox_Enemy",
+                "Enemies"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "HitPointBox_Enemy",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Enemies",
+                ""
               ],
               "subInstructions": []
             }
