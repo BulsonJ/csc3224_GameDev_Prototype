@@ -618,6 +618,24 @@
         "name": "Sprites\\Characters\\Enemies\\Enemy_Run6.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/DeathScreen/DeathScreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\DeathScreen\\DeathScreen.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/DeathScreen/Button_Exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\DeathScreen\\Button_Exit.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1258,7 +1276,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 2.844
+        "zoomFactor": 2.484
       },
       "objectsGroups": [
         {
@@ -1311,7 +1329,7 @@
           "width": 41,
           "x": 4,
           "y": 249,
-          "zOrder": 11,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1356,7 +1374,7 @@
           "width": 64,
           "x": 0,
           "y": 0,
-          "zOrder": 10,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1372,7 +1390,7 @@
           "width": 64,
           "x": 416,
           "y": 0,
-          "zOrder": 10,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1382,7 +1400,7 @@
           "customSize": true,
           "height": 222,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "FloorTile_Sand",
           "persistentUuid": "46a8c7db-6625-433c-97cb-5df2eeceb4b9",
           "width": 480,
@@ -1430,13 +1448,13 @@
           "customSize": true,
           "height": 16,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "WallTiled_HorizontalTop",
           "persistentUuid": "71205498-4f8e-4bc1-8987-7eb756fc91a7",
           "width": 480,
           "x": 0,
           "y": 257,
-          "zOrder": 10,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1446,7 +1464,7 @@
           "customSize": true,
           "height": 16,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "Collision_Boundary",
           "persistentUuid": "e50cf78a-5b8d-49ef-8196-985802512c68",
           "width": 352,
@@ -1510,7 +1528,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "Status",
           "persistentUuid": "d2d2b227-a122-4d72-b162-9a5fef520388",
           "width": 0,
@@ -4572,6 +4590,17 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"HitBoxes\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -4628,6 +4657,17 @@
                 "Status",
                 "=",
                 "255"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"HitBoxes\""
               ],
               "subInstructions": []
             }
@@ -7379,11 +7419,134 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "HitPointBox_Enemy",
+                "Enemy.PointX(\"HitPoint\")",
+                "Enemy.Y(\"HitPoint\")",
+                "\"HitBoxes\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Enemies",
+                "HitPointBox_Enemy"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "HitPointBox_Enemy",
+                "=",
+                "16"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "HitPointBox_Enemy",
+                "=",
+                "12"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Enemies",
+                "\"attackTimer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ResetTimer"
               },
               "parameters": [
                 "",
                 "\"enemySpawn\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "HitPointBox_Enemy",
+                "=",
+                "200"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Loss",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "<=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Death_Screen\"",
+                ""
               ],
               "subInstructions": []
             }
@@ -7413,6 +7576,17 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 7853096,
+          "ambientLightColorR": 2,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "HitBoxes",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -7421,6 +7595,297 @@
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Death_95Screen",
+      "name": "Death_Screen",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1.744
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Death_Screen",
+          "persistentUuid": "1e758b3e-e06e-47a9-9ca9-d66448876ac5",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "",
+          "locked": false,
+          "name": "Exit_Button",
+          "persistentUuid": "806a15ef-1cb2-4ad4-8c9f-0ba2b36d147f",
+          "width": 174,
+          "x": 147,
+          "y": 198,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemies_Slain",
+          "persistentUuid": "37a5b10f-d890-4088-9e45-900975042dba",
+          "width": 0,
+          "x": 170,
+          "y": 133,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Death_Screen",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\DeathScreen\\DeathScreen.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Exit_Button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\DeathScreen\\Button_Exit.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Enemies_Slain",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Enemies Slain:",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Enemies_Slain",
+                "=",
+                "\"Enemies Slain: \" + GlobalVariableString(EnemiesSlain)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Exit_Button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Main_Menu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 8443464,
+          "ambientLightColorG": 8446424,
+          "ambientLightColorR": 8403120,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
