@@ -447,6 +447,123 @@
         "name": "Sprites\\HUD\\Health_Bar.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Characters/Enemies/Enemy_Attack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Characters\\Enemies\\Enemy_Attack.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Enemy-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Enemy-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Enemy-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Enemy-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack-8.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -464,6 +581,10 @@
     },
     {
       "name": "EnemiesSlain",
+      "value": "0"
+    },
+    {
+      "name": "DiagonalDodge",
       "value": "0"
     }
   ],
@@ -1094,6 +1215,9 @@
             },
             {
               "name": "WallTiled_Vertical"
+            },
+            {
+              "name": "Enemy"
             }
           ]
         },
@@ -1223,79 +1347,10 @@
           "locked": false,
           "name": "HitPointBox",
           "persistentUuid": "cafc1741-2baf-4a75-9155-64f3b962bff6",
-          "width": 7,
+          "width": 18,
           "x": 334,
           "y": 72,
           "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "c41d35cf-bd93-4bd3-9a65-86ca0dd90ac0",
-          "width": 0,
-          "x": 232,
-          "y": 100,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "9877777d-3ce7-4bd2-b718-f227a7a1f6f2",
-          "width": 0,
-          "x": 304,
-          "y": 140,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "632bc23a-d925-400d-9575-bdf5ce96b5c8",
-          "width": 0,
-          "x": 119,
-          "y": 100,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "0d87dcb1-155a-43f9-9830-70238357c7ff",
-          "width": 0,
-          "x": 163,
-          "y": 154,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1523,6 +1578,206 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "5a0f08a8-bb72-493d-97a6-3ee3eb18dfba",
+          "width": 0,
+          "x": 239,
+          "y": 137,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "c67f6d3d-3a82-4964-985b-69b600448550",
+          "width": 0,
+          "x": 155,
+          "y": 134,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "24e6b643-3194-4565-b951-428516072040",
+          "width": 0,
+          "x": 147,
+          "y": 194,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "5e42b118-8cf0-42f3-8b25-c9392bbb554c",
+          "width": 0,
+          "x": 374,
+          "y": 107,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "cd5e7897-411d-4a01-a607-59b834c8d0f0",
+          "width": 0,
+          "x": 338.859,
+          "y": 175.678,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "a46747b5-2b34-4f07-992b-50578bd035af",
+          "width": 0,
+          "x": 274,
+          "y": 90,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "316ddad5-e755-4318-9081-6ac1a201793f",
+          "width": 0,
+          "x": 153,
+          "y": 84,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "persistentUuid": "131c87fd-cf8b-491d-b10f-a862b8b7a660",
+          "width": 0,
+          "x": 281,
+          "y": 187,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Attack",
+              "value": "0"
+            },
+            {
+              "name": "AttackHit",
+              "value": "0"
+            }
+          ]
         }
       ],
       "objects": [
@@ -1587,8 +1842,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 8,
-                        "y": 8
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1685,8 +1940,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -1739,8 +1994,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -1781,8 +2036,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -1823,8 +2078,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -1865,8 +2120,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -1907,8 +2162,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -1949,8 +2204,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2003,8 +2258,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2045,8 +2300,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2087,8 +2342,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2129,8 +2384,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2171,8 +2426,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2225,8 +2480,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2267,8 +2522,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2309,8 +2564,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2351,8 +2606,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2393,8 +2648,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2435,8 +2690,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2477,8 +2732,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 21,
-                          "y": 8
+                          "x": 12,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2765,8 +3020,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 24,
-                          "y": 16
+                          "x": 16,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2819,8 +3074,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 24,
-                          "y": 16
+                          "x": 16,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2861,8 +3116,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 24,
-                          "y": 16
+                          "x": 16,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2903,8 +3158,8 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 24,
-                          "y": 16
+                          "x": 16,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -2945,8 +3200,356 @@
                       "points": [
                         {
                           "name": "HitPoint",
-                          "x": 24,
-                          "y": 16
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Attack-1.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Attack-2.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Attack-3.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Attack-4.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Attack-5.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Attack-6.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Attack-7.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 8
+                          },
+                          {
+                            "x": 10,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 24
+                          },
+                          {
+                            "x": 20,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Attack-8.png",
+                      "points": [
+                        {
+                          "name": "HitPoint",
+                          "x": 16,
+                          "y": 7
                         }
                       ],
                       "originPoint": {
@@ -3899,7 +4502,7 @@
                   "parameters": [
                     "HitPointBox",
                     "=",
-                    "Player.PointX(\"HitPoint\")-8",
+                    "Player.PointX(\"HitPoint\")-HitPointBox.Width()",
                     "=",
                     "Player.PointY(\"HitPoint\")"
                   ],
@@ -3967,6 +4570,62 @@
                 "Player",
                 "Collision",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Enemies",
+                "0",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Enemies"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Player"
               ],
               "subInstructions": []
             }
@@ -4367,7 +5026,8 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemies",
           "conditions": [
             {
               "type": {
@@ -4411,18 +5071,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Sprite"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
@@ -4436,7 +5084,7 @@
                 "value": "ChangeAnimation"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "=",
                 "1"
               ],
@@ -4547,6 +5195,18 @@
                 "3"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "DiagonalDodge",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -4565,6 +5225,17 @@
                     "Up"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Right"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -4575,8 +5246,77 @@
                   },
                   "parameters": [
                     "Player",
-                    "0",
-                    "-100",
+                    "35.35",
+                    "-35.35",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DiagonalDodge",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Down"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "35.35",
+                    "35.35",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DiagonalDodge",
+                    "=",
                     "1"
                   ],
                   "subInstructions": []
@@ -4599,30 +5339,7 @@
                     "Down"
                   ],
                   "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Player",
-                    "0",
-                    "100",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -4643,8 +5360,20 @@
                   },
                   "parameters": [
                     "Player",
-                    "-100",
-                    "0",
+                    "-35.35",
+                    "35.35",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DiagonalDodge",
+                    "=",
                     "1"
                   ],
                   "subInstructions": []
@@ -4664,41 +5393,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "Right"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Player",
-                    "100",
-                    "0",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": true,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Right"
+                    "Left"
                   ],
                   "subInstructions": []
                 },
@@ -4722,14 +5417,184 @@
                   },
                   "parameters": [
                     "Player",
-                    "70.71",
-                    "-70.71",
+                    "-35.35",
+                    "-35.35",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DiagonalDodge",
+                    "=",
                     "1"
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DiagonalDodge",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Right"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "50",
+                        "0",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "-50",
+                        "0",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Down"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "0",
+                        "50",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Up"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "0",
+                        "-50",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -5012,7 +5877,18 @@
               "parameters": [
                 "HitPointBox_Enemy",
                 "=",
-                "7"
+                "12"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Enemies",
+                "\"attackTimer\""
               ],
               "subInstructions": []
             }
@@ -5024,7 +5900,18 @@
           "folded": false,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Enemies",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippedX"
+              },
+              "parameters": [
+                "Enemies"
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -5058,8 +5945,81 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemies",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlippedX"
+              },
+              "parameters": [
+                "Enemies"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "HitPointBox_Enemy",
+                "Enemies"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "HitPointBox_Enemy",
+                "=",
+                "Enemy.X(\"HitPoint\")-HitPointBox_Enemy.Width()",
+                "=",
+                "Enemy.Y(\"HitPoint\")"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Enemy",
+                "Attack",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Enemy",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -5086,62 +6046,39 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Enemies",
-                "Player",
-                "20",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
+                "value": "VarObjet"
               },
               "parameters": [
                 "Enemy",
                 "Attack",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Enemy",
                 "=",
                 "1"
               ],
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Enemies",
-                "Player",
-                "20",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
           "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeColor"
+                "value": "ChangeAnimation"
               },
               "parameters": [
                 "Enemies",
-                "\"255;255;255\""
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -5163,6 +6100,31 @@
                 "Player",
                 "180",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Enemy",
+                "Attack",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Enemy",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -5199,6 +6161,31 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Enemy",
+                "Attack",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Enemy",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -5219,7 +6206,216 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemy Attack (When player is close)",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemies",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Enemies",
+                "Player",
+                "30",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Enemies",
+                "\"attackTimer\"",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Enemy",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Enemy",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Enemies",
+                "Attack",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Enemy",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Enemies",
+                "AttackHit",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemy hits Player",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Enemies",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "=",
+                    "6"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "=",
+                    "7"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Enemy",
+                "AttackHit",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemies",
           "conditions": [
             {
               "type": {
@@ -5227,10 +6423,34 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Enemy",
+                "Enemies",
                 "Attack",
                 "=",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Enemies",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "HitPointBox_Enemy",
+                "Enemies"
               ],
               "subInstructions": []
             },
@@ -5251,37 +6471,26 @@
             {
               "type": {
                 "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Enemies",
+                "AttackHit",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Enemies",
-                "Player",
-                "20",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "Enemies",
-                "\"255;0;0\""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -5294,22 +6503,95 @@
                 "RandomInRange(1,10)"
               ],
               "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemy Attack Finished",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Enemies",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
             },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Enemies"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "inverted": false,
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Player",
+                "Enemies",
                 "Attack",
                 "=",
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Enemies",
+                "\"attackTimer\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemy Dead",
+          "comment2": ""
         },
         {
           "disabled": false,

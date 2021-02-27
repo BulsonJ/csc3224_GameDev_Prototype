@@ -47,7 +47,7 @@ gdjs.Main_95MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonP
 }if ( gdjs.Main_95MenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Main_95MenuCode.conditionTrue_1 = gdjs.Main_95MenuCode.condition1IsTrue_0;
-gdjs.Main_95MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8160684);
+gdjs.Main_95MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8212252);
 }
 }}
 if (gdjs.Main_95MenuCode.condition1IsTrue_0.val) {
@@ -153,7 +153,7 @@ gdjs.Main_95MenuCode.condition1IsTrue_0.val = !(gdjs.evtTools.input.isMouseButto
 }if ( gdjs.Main_95MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Main_95MenuCode.conditionTrue_1 = gdjs.Main_95MenuCode.condition2IsTrue_0;
-gdjs.Main_95MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8161668);
+gdjs.Main_95MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8213236);
 }
 }}
 }
