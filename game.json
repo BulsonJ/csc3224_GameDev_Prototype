@@ -693,6 +693,41 @@
         "metadata": "",
         "name": "Sounds\\battle_music.ogg",
         "userAdded": true
+      },
+      {
+        "file": "Sounds/you_lose.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\you_lose.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/enemy_death.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\enemy_death.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/dodge_lena2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\dodge_lena2.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/dodge.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\dodge.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/footstep.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\footstep.ogg",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -715,6 +750,14 @@
     {
       "name": "DiagonalDodge",
       "value": "0"
+    },
+    {
+      "name": "Volume_Music",
+      "value": "1"
+    },
+    {
+      "name": "Volume_SoundEffect",
+      "value": "0.6"
     }
   ],
   "layouts": [
@@ -1733,303 +1776,6 @@
           "width": 0,
           "x": 155,
           "y": 134,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            },
-            {
-              "name": "AttackHit",
-              "value": "0"
-            },
-            {
-              "name": "Running",
-              "value": "0"
-            },
-            {
-              "name": "Dead",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "10ab75db-799c-4265-a21e-774bfab5abc1",
-          "width": 0,
-          "x": 219,
-          "y": 130,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            },
-            {
-              "name": "AttackHit",
-              "value": "0"
-            },
-            {
-              "name": "Running",
-              "value": "0"
-            },
-            {
-              "name": "Dead",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "225edb2e-f429-4981-948d-fec21aa0b616",
-          "width": 0,
-          "x": 304,
-          "y": 147,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            },
-            {
-              "name": "AttackHit",
-              "value": "0"
-            },
-            {
-              "name": "Running",
-              "value": "0"
-            },
-            {
-              "name": "Dead",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "a7d573a2-e429-4650-918a-214994fec681",
-          "width": 0,
-          "x": 187,
-          "y": 167,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            },
-            {
-              "name": "AttackHit",
-              "value": "0"
-            },
-            {
-              "name": "Running",
-              "value": "0"
-            },
-            {
-              "name": "Dead",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "8c06bf63-06d7-4f85-b074-cde2a35b9cc0",
-          "width": 0,
-          "x": 287,
-          "y": 200,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            },
-            {
-              "name": "AttackHit",
-              "value": "0"
-            },
-            {
-              "name": "Running",
-              "value": "0"
-            },
-            {
-              "name": "Dead",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "8694edb7-cfad-4666-b594-d2541af0800d",
-          "width": 0,
-          "x": 256,
-          "y": 170,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            },
-            {
-              "name": "AttackHit",
-              "value": "0"
-            },
-            {
-              "name": "Running",
-              "value": "0"
-            },
-            {
-              "name": "Dead",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "0794bfa7-c079-4bbd-bef8-8a46ed3e20eb",
-          "width": 0,
-          "x": 128,
-          "y": 195,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            },
-            {
-              "name": "AttackHit",
-              "value": "0"
-            },
-            {
-              "name": "Running",
-              "value": "0"
-            },
-            {
-              "name": "Dead",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "3c9f37c1-21f8-4dab-b6f5-1b663e6e160e",
-          "width": 0,
-          "x": 320,
-          "y": 180,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            },
-            {
-              "name": "AttackHit",
-              "value": "0"
-            },
-            {
-              "name": "Running",
-              "value": "0"
-            },
-            {
-              "name": "Dead",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "acff31fa-3f48-4093-a028-f2e5ad299d42",
-          "width": 0,
-          "x": 269,
-          "y": 91,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Attack",
-              "value": "0"
-            },
-            {
-              "name": "AttackHit",
-              "value": "0"
-            },
-            {
-              "name": "Running",
-              "value": "0"
-            },
-            {
-              "name": "Dead",
-              "value": "0"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Enemy",
-          "persistentUuid": "c2c0ec16-55f8-4b5a-82e6-2a2e881a7179",
-          "width": 0,
-          "x": 342,
-          "y": 168,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4968,6 +4714,18 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -5153,7 +4911,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "",
+          "comment": "Background Music",
           "comment2": ""
         },
         {
@@ -5182,7 +4940,7 @@
                 "",
                 "Sounds\\battle_music.ogg",
                 "yes",
-                "10",
+                "5 * GlobalVariable(Volume_Music)",
                 ""
               ],
               "subInstructions": []
@@ -5313,7 +5071,43 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Player Object",
+          "comment": "Health Bar",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "Health_Status",
+                "=",
+                "Player.Variable(Health)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Coliisions",
           "comment2": ""
         },
         {
@@ -5423,6 +5217,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Movement Animation/Sound",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5437,10 +5246,153 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Dodge",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [],
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Sounds\\footstep.ogg",
+                        "1",
+                        "yes",
+                        "10 * GlobalVariable(Volume_SoundEffect)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
             {
               "disabled": false,
               "folded": false,
@@ -5528,164 +5480,8 @@
                 }
               ],
               "events": []
-            },
-            {
-              "disabled": true,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Down"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "4"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
             }
           ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Player",
-                "Attack",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Player",
-                "Dodge",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "TopDownMovementBehavior::IsMoving"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TopDownMovementBehavior::IsMoving"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeWidth"
-              },
-              "parameters": [
-                "Health_Status",
-                "=",
-                "Player.Variable(Health)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         },
         {
           "disabled": false,
@@ -5800,22 +5596,13 @@
                 "",
                 "Sounds\\sword_slash.mp3",
                 "",
-                "50",
+                "50 * GlobalVariable(Volume_SoundEffect)",
                 ""
               ],
               "subInstructions": []
             }
           ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
-            }
-          ]
+          "events": []
         },
         {
           "disabled": false,
@@ -6039,6 +5826,18 @@
               "parameters": [
                 "Player",
                 "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Player",
+                "=",
                 "3"
               ],
               "subInstructions": []
@@ -6059,6 +5858,19 @@
               "parameters": [
                 "Player",
                 "Attack",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Dodge",
                 "=",
                 "0"
               ],
@@ -6610,6 +6422,49 @@
                   "events": []
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sounds\\dodge.mp3",
+                    "",
+                    "30 * GlobalVariable(Volume_SoundEffect)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         },
@@ -7322,7 +7177,8 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemies",
           "conditions": [
             {
               "type": {
@@ -7397,106 +7253,41 @@
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": true,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Enemies",
-                "AttackHit",
-                "=",
-                "1"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SoundStopped"
-              },
-              "parameters": [
-                "",
-                "1"
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sounds\\sword_slash.mp3",
+                    "1",
+                    "",
+                    "40 * GlobalVariable(Volume_SoundEffect)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "Sounds\\sword_slash.mp3",
-                "1",
-                "",
-                "50",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Enemies",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Enemies",
-                "AttackHit",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SoundStopped"
-              },
-              "parameters": [
-                "",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "Sounds\\sword_slash.mp3",
-                "1",
-                "",
-                "50",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
+          ]
         },
         {
           "disabled": false,
@@ -7736,7 +7527,40 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sounds\\enemy_death.mp3",
+                    "",
+                    "40 * GlobalVariable(Volume_SoundEffect)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -8280,6 +8104,20 @@
                 "Enemies_Slain",
                 "=",
                 "\"Enemies Slain: \" + GlobalVariableString(EnemiesSlain)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sounds\\you_lose.ogg",
+                "",
+                "40",
+                ""
               ],
               "subInstructions": []
             }

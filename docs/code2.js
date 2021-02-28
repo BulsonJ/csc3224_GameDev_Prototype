@@ -31,6 +31,7 @@ gdjs.copyArray(runtimeScene.getObjects("Enemies_Slain"), gdjs.Death_95ScreenCode
 {for(var i = 0, len = gdjs.Death_95ScreenCode.GDEnemies_95SlainObjects1.length ;i < len;++i) {
     gdjs.Death_95ScreenCode.GDEnemies_95SlainObjects1[i].setString("Enemies Slain: " + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2)));
 }
+}{gdjs.evtTools.sound.playSound(runtimeScene, "Sounds\\you_lose.ogg", false, 40, 1);
 }}
 
 }

@@ -88,6 +88,7 @@ gdjs.copyArray(runtimeScene.getObjects("Prompt_Help"), gdjs.Main_95MenuCode.GDPr
 {for(var i = 0, len = gdjs.Main_95MenuCode.GDPrompt_95HelpObjects1.length ;i < len;++i) {
     gdjs.Main_95MenuCode.GDPrompt_95HelpObjects1[i].setOpacity(0);
 }
+}{gdjs.evtTools.sound.playSound(runtimeScene, "Sounds\\battle_music.ogg", true, 10, 1);
 }}
 
 }
