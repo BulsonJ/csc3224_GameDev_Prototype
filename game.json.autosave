@@ -1815,6 +1815,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "DebugUI",
+          "locked": false,
+          "name": "Help",
+          "persistentUuid": "dd14f813-949c-4147-bf77-1c553ebc7983",
+          "width": 0,
+          "x": 1,
+          "y": 132,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4374,6 +4390,25 @@
           "variables": [],
           "behaviors": [],
           "string": "GodMode: Off\nEnemy \nSpawn: On",
+          "font": "",
+          "characterSize": 9,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Help",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Move: Arrows\nAttack: Space\nDodge: Shift\nDebug: F\nGodMode: G\nToggle \nSpawn: H",
           "font": "",
           "characterSize": 9,
           "color": {
@@ -8780,9 +8815,97 @@
               "viewportRight": 1,
               "viewportTop": 0,
               "width": 0
+            },
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            },
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            },
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            },
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            },
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            },
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            },
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
             }
           ],
-          "effects": []
+          "effects": [
+            {
+              "effectType": "Godray",
+              "name": "Effect",
+              "doubleParameters": {
+                "angle": 30,
+                "animationSpeed": 1,
+                "gain": 0.6,
+                "lacunarity": 2.75,
+                "light": 30,
+                "x": 100,
+                "y": 100
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "parallel": true
+              }
+            }
+          ]
         },
         {
           "ambientLightColorB": 1702453632,

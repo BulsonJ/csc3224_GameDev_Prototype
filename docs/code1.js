@@ -91,6 +91,10 @@ gdjs.Starting_95ArenaCode.GDCheat_95StatusObjects1= [];
 gdjs.Starting_95ArenaCode.GDCheat_95StatusObjects2= [];
 gdjs.Starting_95ArenaCode.GDCheat_95StatusObjects3= [];
 gdjs.Starting_95ArenaCode.GDCheat_95StatusObjects4= [];
+gdjs.Starting_95ArenaCode.GDHelpObjects1= [];
+gdjs.Starting_95ArenaCode.GDHelpObjects2= [];
+gdjs.Starting_95ArenaCode.GDHelpObjects3= [];
+gdjs.Starting_95ArenaCode.GDHelpObjects4= [];
 
 gdjs.Starting_95ArenaCode.conditionTrue_0 = {val:false};
 gdjs.Starting_95ArenaCode.condition0IsTrue_0 = {val:false};
@@ -2649,6 +2653,10 @@ gdjs.Starting_95ArenaCode.GDCheat_95StatusObjects1.length = 0;
 gdjs.Starting_95ArenaCode.GDCheat_95StatusObjects2.length = 0;
 gdjs.Starting_95ArenaCode.GDCheat_95StatusObjects3.length = 0;
 gdjs.Starting_95ArenaCode.GDCheat_95StatusObjects4.length = 0;
+gdjs.Starting_95ArenaCode.GDHelpObjects1.length = 0;
+gdjs.Starting_95ArenaCode.GDHelpObjects2.length = 0;
+gdjs.Starting_95ArenaCode.GDHelpObjects3.length = 0;
+gdjs.Starting_95ArenaCode.GDHelpObjects4.length = 0;
 
 gdjs.Starting_95ArenaCode.eventsList22(runtimeScene);
 return;
