@@ -52,7 +52,7 @@ gdjs.Death_95ScreenCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButt
 }if ( gdjs.Death_95ScreenCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Death_95ScreenCode.conditionTrue_1 = gdjs.Death_95ScreenCode.condition2IsTrue_0;
-gdjs.Death_95ScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8656804);
+gdjs.Death_95ScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8824860);
 }
 }}
 }

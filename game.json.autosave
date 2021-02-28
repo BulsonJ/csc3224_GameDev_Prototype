@@ -1395,7 +1395,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 2.508
+        "zoomFactor": 2.436
       },
       "objectsGroups": [
         {
@@ -1820,7 +1820,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "DebugUI",
+          "layer": "",
           "locked": false,
           "name": "Help",
           "persistentUuid": "dd14f813-949c-4147-bf77-1c553ebc7983",
@@ -1964,9 +1964,9 @@
           ],
           "behaviors": [
             {
-              "maxSpeed": 75,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "maxSpeed": 75,
               "deceleration": 1000,
               "acceleration": 1000,
               "allowDiagonals": true,
@@ -8901,8 +8901,8 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 1701470831,
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1701470848,
           "ambientLightColorR": -1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
