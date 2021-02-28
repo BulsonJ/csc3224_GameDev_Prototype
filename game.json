@@ -672,6 +672,27 @@
         "name": "Sprites\\Characters\\Player\\Player_Run_Down4.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "Sounds/sword_slash.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\sword_slash.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/soundtrack.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\soundtrack.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/battle_music.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\battle_music.ogg",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -985,6 +1006,20 @@
                 "Prompt_Help",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sounds\\battle_music.ogg",
+                "yes",
+                "10",
+                ""
               ],
               "subInstructions": []
             }
@@ -5118,6 +5153,55 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Sounds\\battle_music.ogg",
+                "yes",
+                "10",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Camera",
           "comment2": ""
         },
@@ -5704,6 +5788,20 @@
                 "TopDownMovement",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sounds\\sword_slash.mp3",
+                "",
+                "50",
+                ""
               ],
               "subInstructions": []
             }
@@ -7302,6 +7400,105 @@
           "events": []
         },
         {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Enemies",
+                "AttackHit",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SoundStopped"
+              },
+              "parameters": [
+                "",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Sounds\\sword_slash.mp3",
+                "1",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemies",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Enemies",
+                "AttackHit",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SoundStopped"
+              },
+              "parameters": [
+                "",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Sounds\\sword_slash.mp3",
+                "1",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::ForEach",
@@ -7449,6 +7646,19 @@
               "parameters": [
                 "Enemies",
                 "Attack",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Enemies",
+                "AttackHit",
                 "=",
                 "0"
               ],
@@ -7848,7 +8058,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 7853096,
           "ambientLightColorR": 2,
           "followBaseLayerCamera": false,
