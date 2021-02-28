@@ -1820,7 +1820,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "DebugUI",
+          "layer": "",
           "locked": false,
           "name": "Help",
           "persistentUuid": "dd14f813-949c-4147-bf77-1c553ebc7983",

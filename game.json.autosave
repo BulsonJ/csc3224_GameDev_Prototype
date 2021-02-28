@@ -8887,25 +8887,7 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Godray",
-              "name": "Effect",
-              "doubleParameters": {
-                "angle": 30,
-                "animationSpeed": 1,
-                "gain": 0.6,
-                "lacunarity": 2.75,
-                "light": 30,
-                "x": 100,
-                "y": 100
-              },
-              "stringParameters": {},
-              "booleanParameters": {
-                "parallel": true
-              }
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 1702453632,
