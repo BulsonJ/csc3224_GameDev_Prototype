@@ -1964,9 +1964,9 @@
           ],
           "behaviors": [
             {
-              "maxSpeed": 75,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "maxSpeed": 75,
               "deceleration": 1000,
               "acceleration": 1000,
               "allowDiagonals": true,
@@ -8901,8 +8901,8 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 1701470831,
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1701470848,
           "ambientLightColorR": -1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
